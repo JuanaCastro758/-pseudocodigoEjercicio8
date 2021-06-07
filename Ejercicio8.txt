@@ -1,0 +1,12 @@
+Proceso Ejercicio_8
+	op<-''
+	Escribir 'Escribir S para salir'
+	Mientras op!='S' O op!='s' Hacer
+		n<-Aleatorio(0,10000)
+		Si n MOD 5==0 Entonces
+			Escribir n
+		FinSi
+		Leer op
+	FinMientras
+FinProceso
+
